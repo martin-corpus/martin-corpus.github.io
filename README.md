@@ -10,11 +10,11 @@ In the last sprint, you set up your GitHub Pages blog (USERNAME.github.io). You'
 
 Your blog is a practical way to apply your learning and it will go towards your Foundations assessment. Take special note that you will not be judged on your design application. We don't mind what your blog looks like, but rather:
 
-*how you engaged with the material
-*the quality of your reflections
-*how you identified obstacles and overcame them
-*if you can demonstrate an understanding of the concepts and learning objectives; and
-*how frequently you engaged and staged commits.
+   *how you engaged with the material
+   *the quality of your reflections
+   *how you identified obstacles and overcame them
+   *if you can demonstrate an understanding of the concepts and learning objectives; and
+   *how frequently you engaged and staged commits.
 
 **What your Blog is:** A space where you demonstrate your skills in problem-solving and reflections.
 
