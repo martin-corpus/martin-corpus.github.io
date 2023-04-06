@@ -1,0 +1,255 @@
+/* nav ul li {
+    border: 2px solid  blue;
+}
+*/
+
+body {
+    font-family: Helvetica, San-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #363636;
+}
+
+#header {
+    background: #59799e;  
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+#logo {
+    height: 100px;
+}
+
+#logo:hover {
+  background-color: #597DA5;
+}
+
+
+/* left column */
+
+#nav-bar {
+    height: 100%;
+    width: 15%;
+    top: 0px;
+    margin: 100px 0 0 0;
+    padding: 0;
+    border-right: 3px solid #59799e; 
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+#nav-header {
+    color: rgb(225, 233, 255);
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    border-bottom: 3px solid #59799e; 
+    text-shadow: 0px 3px #59799e;
+    background-color: #849cb8;
+}
+
+nav ul{
+    height: 100vh;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #59799e;
+}
+
+.nav-link {
+    color: #59799e;
+    text-shadow: 0px 2px white; 
+    font-size: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    background-color: #59799e;
+    color: white;
+}
+
+
+/* content */
+
+div {
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.image {
+   align-self: stretch;
+   margin-left: -40px;
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px #59799e;
+}
+
+.content {
+    color: rgb(187, 183, 183);
+    align-self: center;
+    margin-left: 130px;
+}
+
+.content h1 {
+    width: 100%;
+    font-size: 60px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    width: 100%;
+}
+
+.blog {
+    color: rgb(187, 183, 183);
+    margin-left: 330px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.blog h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.blog p {
+    font-size: 20px;
+    height: 150%;
+}
+
+/* Media Query */
+/*
+@media all and (max-height: 800px) {
+    #nav-header {
+            font-size: 35px;
+    }
+    .nav-link {
+            font-size: 20px;    
+  }
+}
+
+@media all and (max-width: 1400px)  {
+    #nav-header {
+            font-size: 35px;
+    }
+    .nav-link {
+            font-size: 20px;    
+  }
+}
+
+@media all and (max-width: 950px)  {
+    #nav-header {
+        font-size: 30px;
+    }
+    .nav-link {
+        font-size: 15px;    
+    }
+    .content h1 {
+        width: 100%;
+        font-size: 100px;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }
+    
+}
+
+@media all and (max-width: 780px)  {
+    nav ul li {
+        margin: 30px 0px;
+    }    
+}
+
+@media all and (max-height: 775px) {
+    #nav-header {
+            font-size: 30px;
+    }
+    .nav-link {
+            font-size: 15px;    
+    }
+    nav ul li {
+        margin: 30px 0px;
+        padding-bottom: 0px;
+    }    
+    .content h1 {
+        width: 100%;
+        font-size: 100px;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }    
+    .content {    
+        padding-top: 20px; 
+    }
+    
+}
+
+@media all and (max-width: 590px)  {
+    #nav-header {
+            font-size: 15px;
+    }
+    .nav-link {
+            font-size: 10px;    
+    }
+    nav ul li {
+        margin: 0;
+        padding-bottom: 15px;
+    }    
+    .content h1 {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }    
+    .content {    
+        padding-top: 10px; 
+    }
+    
+}
+
+@media all and (max-height: 560px) {
+    #nav-header {
+            font-size: 15px;
+    }
+    .nav-link {
+            font-size: 10px;    
+    }
+    nav ul li {
+        margin: 0;
+        padding-bottom: 15px;
+    }    
+    .content h1 {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: 35px;
+    }    
+    .content {    
+        padding-top: 10px; 
+    }
+    
+}
