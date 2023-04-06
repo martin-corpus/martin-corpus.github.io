@@ -155,116 +155,85 @@ a:hover {
 
 /* Media Query */
 
-/*
 
-@media all and (max-width: 1400px)  {
-    #nav-header {
-            font-size: 35px;
+
+@media all and (max-height: 800px), (max-width: 1700px) {
+    .content {
+        margin-left: 50px;
     }
-    .nav-link {
-            font-size: 20px;    
-  }
-}
-
-@media all and (max-width: 950px)  {
-    #nav-header {
+    .content h1 {
         font-size: 30px;
     }
-    .nav-link {
-        font-size: 15px;    
+    .content p {
+        font-size: 20px;
     }
-    .content h1 {
-        width: 60%;
-        font-size: 40px;
+    .blog {
+        margin-top: 50px;
+    }
+    .image img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    .blog {
+        margin-left: 230px;
+    }
+}
+
+@media all and (max-height: 700px), (max-width: 950px) {
+    .blog {
+        margin-left: 200px;
+    }
+    .blog section h1 {
+        font-size: 20px;
         margin-bottom: 15px;
-        margin-top: 35px;
+    }
+    
+    #list ul li {
+        font-size: 20px;
+    }
+    
+    .blog section p {
+        font-size: 15px;
+        line-height: 1em;
     }
     .image {
-        align-self: stretch;
+        align-self: normal;
         margin-left: 0px;
      }
-    .image img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        box-shadow: 0 0 5px 5px #59799e;
-    }
-}
-
-@media all and (max-width: 780px)  {
-    nav ul li {
-        margin: 30px 0px;
-    }   
-    .content h1 {
+    .nav-link, #nav-header {
         font-size: 20px;
-    }     
+    }
 }
 
-@media all and (max-height: 775px) {
-    #nav-header {
-            font-size: 30px;
+@media all and (max-width: 800px) {
+    .blog section h1 {
+        font-size: 15px;
     }
-    .nav-link {
-            font-size: 15px;    
+    #list ul li {
+        font-size: 15px;
     }
-    nav ul li {
-        margin: 30px 0px;
-        padding-bottom: 0px;
-    }    
-    .content h1 {
-        width: 100%;
-        font-size: 100px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }    
-    .content {    
-        padding-top: 20px; 
+    .blog {
+        margin-left: 150px;
+        margin-right: 20px;
     }
     
+    .nav-link, #nav-header {
+        font-size: 15px;
+    }
+    .blog section {
+        margin-bottom: 30px;
+    }
 }
 
-@media all and (max-width: 590px)  {
-    #nav-header {
-            font-size: 15px;
+@media all and (max-width: 800px) {
+    .blog {
+        margin-left: 120px;
+        margin-right: 10px;
     }
-    .nav-link {
-            font-size: 10px;    
+    .nav-link, #nav-header {
+        font-size: 10px;
     }
-    nav ul li {
-        margin: 0;
-        padding-bottom: 15px;
-    }    
-    .content h1 {
-        width: 100%;
-        font-size: 25px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }    
-    .content {    
-        padding-top: 10px; 
-    }
-    
-}
-
-@media all and (max-height: 560px) {
-    #nav-header {
-            font-size: 15px;
-    }
-    .nav-link {
-            font-size: 10px;    
-    }
-    nav ul li {
-        margin: 0;
-        padding-bottom: 15px;
-    }    
-    .content h1 {
-        width: 100%;
-        font-size: 25px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }    
-    .content {    
-        padding-top: 10px; 
-    }
-    
 }

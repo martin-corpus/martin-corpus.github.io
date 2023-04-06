@@ -119,137 +119,28 @@ div {
 
 
 /* Media Query */
-/*
-@media all and (max-height: 800px) {
-    #nav-header {
-            font-size: 35px;
-    }
-    .nav-link {
-            font-size: 20px;    
-  }
-}
 
-@media all and (max-width: 1400px)  {
-    #nav-header {
-            font-size: 35px;
-    }
-    .nav-link {
-            font-size: 20px;    
-  }
-}
-
-@media all and (max-width: 950px)  {
-    #nav-header {
-        font-size: 30px;
-    }
-    .nav-link {
-        font-size: 15px;    
-    }
-    .content h1 {
-        width: 100%;
-        font-size: 100px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }
-    .content i {
-        font-size: 25px;
-    }
-    .quote {
-        margin: 50px 0 0 115px;
-        padding-top: 25px;
-    }
-}
-
-@media all and (max-width: 780px)  {
-    nav ul li {
-        margin: 30px 0px;
-    }    
-}
-
-@media all and (max-height: 775px) {
-    #nav-header {
-            font-size: 30px;
-    }
-    .nav-link {
-            font-size: 15px;    
-    }
-    nav ul li {
-        margin: 30px 0px;
-        padding-bottom: 0px;
-    }    
-    .content h1 {
-        width: 100%;
-        font-size: 100px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }    
-    .content {    
-        padding-top: 20px; 
-    }
-    .content i {
-        font-size: 25px;
-    }
-    .quote {
-        margin: 50px 0 0 115px;
-        padding-top: 0px;
-    }
-}
-
-@media all and (max-width: 590px)  {
-    #nav-header {
-            font-size: 15px;
-    }
-    .nav-link {
-            font-size: 10px;    
-    }
-    nav ul li {
-        margin: 0;
-        padding-bottom: 15px;
-    }    
-    .content h1 {
-        width: 100%;
-        font-size: 25px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }    
-    .content {    
-        padding-top: 10px; 
-    }
-    .content i {
+@media all and (max-height: 600px), (max-width: 1050px) {
+    .nav-link, #nav-header {
         font-size: 15px;
     }
-    .quote {
-        margin-top: 20px;
-        margin-left: 80px;
+    .sprint img {
+        width: 200px;
+        height: 200px;
+    }
+    div {
+        column-gap: 6%;
+        row-gap: 40px;
+        margin-top: 140px;
     }
 }
-
-@media all and (max-height: 560px) {
-    #nav-header {
-            font-size: 15px;
-    }
-    .nav-link {
-            font-size: 10px;    
-    }
-    nav ul li {
-        margin: 0;
-        padding-bottom: 15px;
-    }    
-    .content h1 {
-        width: 100%;
-        font-size: 25px;
-        margin-bottom: 15px;
-        margin-top: 35px;
-    }    
-    .content {    
-        padding-top: 10px; 
-    }
-    .content i {
-        font-size: 15px;
-    }
-    .quote {
-        margin-top: 20px;
-        margin-left: 130px;
-    }
+@media all and (max-height: 500px), (max-width: 600px) {
+        .nav-link, #nav-header {
+            font-size: 10px;
+        }
+        .sprint img {
+            width: 150px;
+            height: 150px;
+        }
+         
 }
-*/
