@@ -5,7 +5,7 @@
 &nbsp;    
 This blog will showcase my progress in creating my very first website by utilizing what I have learned in `HTML`, `CSS`, `GitHub`, `Command Line` and `VS Coder`.   
 &nbsp;  
-## [Website](martin-corpus.github.io/index.html) Content: ##
+## [Website](index.html) Content: ##
    + Index Page
    + The Story of Te Houtaewa
    + Core Blogs:  
