@@ -24,5 +24,4 @@ We will, however, introduce you to the important aspects of design thinking and 
 
 Throughout the sprints, you'll be presented with many ways to learn HTML, CSS, and JS building blocks.
 
-Some of the resources we point you towards will be media-rich with audio and video. Others, like freeCodeCamp, will look more like a code editor and terminal window.
-
+Some of the resources we point you towards will be media-rich with audio and video. Others, like [freeCodeCamp](https://www.freecodecamp.org/), will look more like a code editor and terminal window.
