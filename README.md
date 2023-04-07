@@ -15,9 +15,9 @@ Your blog is a practical way to apply your learning and it will go towards your 
    + if you can demonstrate an understanding of the concepts and learning objectives; and
    + how frequently you engaged and staged commits.
 
-**What your Blog is:** A space where you demonstrate your skills in problem-solving and reflections.
+[**What your Blog is:**] A space where you demonstrate your skills in problem-solving and reflections.
 
-**What your Blog is not:** A fancy looking, perfectly put together interface.
+[**What your Blog is not:**] A fancy looking, perfectly put together interface.
 
 We will, however, introduce you to the important aspects of design thinking and hope that you can incorporate those into your blog.
 
