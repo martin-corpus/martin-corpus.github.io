@@ -132,6 +132,9 @@ div {
         row-gap: 40px;
         margin-top: 140px;
     }
+    .sprint {
+        margin-bottom: 50px;
+    }
 }
 @media all and (max-height: 500px), (max-width: 600px) {
         .nav-link, #nav-header {
