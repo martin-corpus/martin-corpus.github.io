@@ -201,27 +201,17 @@ a:hover {
         font-size: 15px;
     }
     .blog {
-        margin-left: 150px;
-        margin-right: 20px;
+        margin-left: 120px;
+        margin-right: 10px;
     }
     .blog section img {
         height: 250px;
         width: 250px;
     }
     .nav-link, #nav-header {
-        font-size: 15px;
+        font-size: 10px;
     }
     .blog section {
         margin-bottom: 30px;
-    }
-}
-
-@media all and (max-width: 800px) {
-    .blog {
-        margin-left: 120px;
-        margin-right: 10px;
-    }
-    .nav-link, #nav-header {
-        font-size: 10px;
     }
 }
