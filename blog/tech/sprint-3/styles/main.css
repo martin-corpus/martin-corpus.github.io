@@ -149,6 +149,12 @@ a:hover {
     font-size: 15px;
     color:#b33349;
 }
+#sampleCode {
+   
+    width: 40%;
+    margin: auto;
+    display: block;
+}
 
 /* Media Query */
 
