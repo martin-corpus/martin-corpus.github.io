@@ -152,77 +152,31 @@ a:hover {
 
 /* Media Query */
 
-@media all and (max-height: 800px), (max-width: 1700px) {
-    .content {
-        margin-left: 50px;
-    }
-    .content h1 {
-        font-size: 30px;
-    }
-    .content p {
-        font-size: 20px;
-    }
-    .blog {
-        margin-top: 50px;
-    }
-    .image img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media all and (max-width: 1400px) {
-    .blog {
-        margin-left: 230px;
-    }
-}
-
-@media all and (max-height: 700px), (max-width: 950px) {
-    .blog {
-        margin-left: 200px;
-    }
-    .blog section h1 {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-  
-    .blog section h3 {
-        font-size: 15px;
-        line-height: 1em;
-    }
-    .image {
-        align-self: normal;
-        margin-left: 0px;
-     }
-    .nav-link, #nav-header {
-        font-size: 20px;
-    }
-}
-
-@media all and (max-width: 800px) {
-    .blog section h1 {
-        font-size: 15px;
-    }
-
-    .blog {
-        margin-left: 150px;
-        margin-right: 20px;
-    }
-    
-    .nav-link, #nav-header {
-        font-size: 15px;
-    }
-    .blog section {
-        margin-bottom: 30px;
-    }
-}
-
-@media all and (max-width: 800px) {
-    .blog {
-        margin-left: 120px;
-        margin-right: 10px;
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #logo {
+        height: 90px;
     }
     .nav-link, #nav-header {
         font-size: 10px;
     }
+    nav ul li {
+        margin: 10px;
+    }
+    #teHoutaewa {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .body-title {
+        
+    }
+    
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+    .nav-link, #nav-header {
+        font-size: 20px;
+    }
+    
+   
+    
 }

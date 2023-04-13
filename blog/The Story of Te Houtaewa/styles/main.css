@@ -145,49 +145,86 @@ div {
 
 /* Media Query */
 
-@media all and (max-height: 800px), (max-width: 1700px) {
-    .content {
-        margin-left: 50px;
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #logo {
+        height: 90px;
     }
-    .content h1 {
-        font-size: 30px;
+    .nav-link, #nav-header {
+        font-size: 10px;
     }
-    .content p {
-        font-size: 20px;
+    nav ul li {
+        margin: 10px;
     }
-    .blog {
-        margin-top: 50px;
-    }
-    .image img {
+    .image {
+        margin-left: 0px;
+        
+     }
+     .image img {
         width: 150px;
         height: 150px;
     }
-}
-
-@media all and (max-width: 1400px) {
-    .blog {
-        margin-left: 230px;
+    div {
+        display: block;
+        margin-left: 20%;
     }
-}
-
-@media all and (max-height: 700px), (max-width: 950px) {
-    .blog {
-        margin-left: 170px;
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content h1 {
+        font-size: 25px;
+    }
+    .content p {
+        font-size: 15px;
     }
     .blog h1 {
         font-size: 15px;
-        margin-bottom: 15px;
     }
-    
     .blog p {
-        font-size: 15px;
-        line-height: 1em;
+        font-size: 10px;
     }
-    .image {
-        align-self: normal;
-        margin-left: 0px;
-     }
+    .blog {
+        margin-left: 20%;
+        margin-right: 20px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
     .nav-link, #nav-header {
         font-size: 20px;
+    }
+    
+    .image {
+        margin-left: 0px;
+        
+     }
+     .image img {
+        width: 200px;
+        height: 200px;
+    }
+    div {
+        display: block;
+        margin-left: 20%;
+    }
+    .content {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 25px;
+    }
+    .blog h1 {
+        font-size: 20px;
+    }
+    .blog p {
+        font-size: 16px;
+    }
+    .blog {
+        margin-left: 20%;
+        margin-right: 20px;
+        margin-top: 80px;
     }
 }
