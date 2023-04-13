@@ -156,20 +156,83 @@ a:hover {
     #logo {
         height: 90px;
     }
-    .nav-link, #nav-header {
-        font-size: 10px;
+
+    #nav-bar {
+        border-right: transparent;
+        margin-top: 110px;
+        margin-left: 45%;
+        
+        display: flex;
+        justify-content: center;
+        position: static;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        margin: 0;
+    }
+    
+    #nav-header {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        text-shadow: 0px 1px #59799e;
     }
     nav ul li {
-        margin: 10px;
+        margin: 10px 20px;
+        width: 100%;
+        border-bottom: 3px solid #59799e;
     }
-    #teHoutaewa {
+
+    
+    .image {
+        margin-left: 0px;
+        
+     }
+     .image img {
+        width: 150px;
+        height: 150px;
+    }
+    .body-title {
+        display: block;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content h1 {
+        font-size: 25px;
+    }
+
+
+    
+    .blog {
+        margin-left: 5%;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .blog section {
+        margin-bottom: 30px;
+    }
+    .blog section h1 {
+        font-size: 15px;
+    }
+    .blog section h3 {
+        font-size: 12px;
         margin-left: 0px;
         margin-right: 0px;
     }
-    .body-title {
-        
+   
+    #box-content {
+        width: 50%;
     }
-    
 }
 
 @media all and (min-width: 768px) and (max-width: 1199px) {
@@ -177,6 +240,40 @@ a:hover {
         font-size: 20px;
     }
     
-   
-    
+    .image {
+        margin-left: 0px;
+        
+     }
+     .image img {
+        width: 200px;
+        height: 200px;
+    }
+    .body-title {
+        display: block;
+        margin-left: 20%;
+    }
+    .content {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 25px;
+    }
+    .blog h1 {
+        font-size: 20px;
+    }
+    .blog p {
+        font-size: 16px;
+    }
+    .blog {
+        margin-left: 20%;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+    #box-content {
+        width: 50%;
+    }
 }

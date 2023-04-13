@@ -149,69 +149,138 @@ a:hover {
 
 /* Media Query */
 
-@media all and (max-height: 800px), (max-width: 1700px) {
-    .content {
-        margin-left: 50px;
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #logo {
+        height: 90px;
     }
-    .content h1 {
-        font-size: 30px;
+
+    #nav-bar {
+        border-right: transparent;
+        margin-top: 110px;
+        margin-left: 45%;
+        
+        display: flex;
+        justify-content: center;
+        position: static;
+        
     }
-    .content p {
-        font-size: 20px;
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        margin: 0;
     }
-    .blog {
-        margin-top: 50px;
+    
+    #nav-header {
+        display: none;
     }
-    .image img {
+
+    .nav-link {
+        font-size: 15px;
+        text-shadow: 0px 1px #59799e;
+    }
+    nav ul li {
+        margin: 10px 20px;
+        width: 100%;
+        border-bottom: 3px solid #59799e;
+    }
+
+    
+    .image {
+        margin-left: 0px;
+        
+     }
+     .image img {
         width: 150px;
         height: 150px;
     }
-}
-
-@media all and (max-width: 1400px) {
-    .blog {
-        margin-left: 230px;
-    }
-}
-
-@media all and (max-height: 700px), (max-width: 950px) {
-    .blog {
-        margin-left: 200px;
-    }
-    .blog section h1 {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-    
-    .blog section p {
-        font-size: 15px;
-        line-height: 1em;
-    }
-    .image {
-        align-self: normal;
+    .body-title {
+        display: block;
         margin-left: 0px;
-     }
-    .nav-link, #nav-header {
-        font-size: 20px;
+        margin-top: 20px;
     }
-}
-
-@media all and (max-width: 800px) {
-    .blog section h1 {
-        font-size: 15px;
-    }
-    .blog {
-        margin-left: 120px;
+    .content {
+        margin-left: 10px;
         margin-right: 10px;
     }
-    .blog section img {
-        height: 250px;
-        width: 250px;
+    .content h1 {
+        font-size: 25px;
     }
-    .nav-link, #nav-header {
-        font-size: 10px;
+
+
+    
+    .blog {
+        margin-left: 5%;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
     .blog section {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
+    .blog section h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .blog section h3 {
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   
+    #sampleImage {
+        width: 50%;
+    }
+
+    #sampleCode {
+        width: 80%;
+    }    
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+    .nav-link, #nav-header {
+        font-size: 20px;
+    }
+    
+    .image {
+        margin-left: 0px;
+        
+     }
+     .image img {
+        width: 200px;
+        height: 200px;
+    }
+    .body-title {
+        display: block;
+        margin-left: 20%;
+    }
+    .content {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 25px;
+    }
+    .blog h1 {
+        font-size: 20px;
+    }
+    .blog h3 {
+        font-size: 16px;
+    }
+    .blog {
+        margin-left: 20%;
+        margin-right: 20px;
+        margin-top: 80px;
+    }
+    #sampleImage {
+        width: 50%;
+    }
+
+    #sampleCode {
+        width: 80%;
+    }    
 }
