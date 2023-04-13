@@ -118,18 +118,64 @@ div {
 
 /* Media Query */
 
-@media all and (max-height: 800px) {
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #logo {
+        height: 90px;
+    }
+
+    #nav-bar {
+        border-right: transparent;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        right: 0;
+        left: 43%;
+        z-index: 0;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        margin: 0;
+    }
+    
+    #nav-header {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        text-shadow: 0px 1px #59799e;
+    }
+    nav ul li {
+        margin: 10px 30px;
+        width: 100%;
+        border-bottom: 3px solid #59799e;
+    }
+    
     .content {
-        padding-top: 100px;
+        padding-top: 10px;
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content i {
+        font-size: 15px;
     }
     .quote {
-        margin-top: 0;
-    }
+        font-size: 10px;
+        padding-top: 0px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }    
 }
-
-@media all and (max-height: 600px), (max-width: 1050px) {
+/*
+@media all and (min-width: 768px) and (max-width: 1199px) {
     .nav-link, #nav-header {
-        font-size: 15px;
+        font-size: 20px;
     }
     .content {
         padding-top: 50px;
@@ -137,22 +183,5 @@ div {
     .content h1 {
         font-size: 80px;
     }
-
-@media all and (max-height: 500px), (max-width: 600px) {
-        .nav-link, #nav-header {
-            font-size: 10px;
-        }
-        .content {
-            padding-top: 10px;
-        }
-        .content h1 {
-            font-size: 30px;
-        }
-        .content i {
-            font-size: 15px;
-        }
-        .quote {
-            font-size: 10px;
-            padding-top: 30px;
-        }    
 }
+
