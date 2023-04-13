@@ -124,16 +124,41 @@ div {
     #logo {
         height: 90px;
     }
-    .nav-link, #nav-header {
-        font-size: 10px;
+    
+    #nav-bar {
+        border-right: transparent;
+        margin-top: 110px;
+        margin-left: 43%;
+        
+        display: flex;
+        justify-content: center;
+        position: static;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        margin: 0;
+    }
+    
+    #nav-header {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        text-shadow: 0px 1px #59799e;
     }
     nav ul li {
-        margin: 10px;
+        margin: 10px 30px;
+        width: 100%;
+        border-bottom: 3px solid #59799e;
     }
-    #teHoutaewa {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+
+
+
+
     .sprint img {
         width: 200px;
         height: 200px;
@@ -141,7 +166,8 @@ div {
     div {
         column-gap: 6%;
         row-gap: 40px;
-        margin-top: 140px;
+        margin-top: 40px;
+        margin-left: 5%;
     }
     .sprint {
         margin-bottom: 50px;

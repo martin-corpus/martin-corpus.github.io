@@ -43,6 +43,7 @@ body {
     position: fixed;
     text-align: center;
     z-index: 1;
+    
 }
 
 #nav-header {
@@ -172,7 +173,7 @@ div {
         margin-left: 0px;
     }    
 }
-/*
+
 @media all and (min-width: 768px) and (max-width: 1199px) {
     .nav-link, #nav-header {
         font-size: 20px;

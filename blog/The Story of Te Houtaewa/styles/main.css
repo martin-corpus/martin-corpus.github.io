@@ -149,12 +149,41 @@ div {
     #logo {
         height: 90px;
     }
-    .nav-link, #nav-header {
-        font-size: 10px;
+    #nav-bar {
+        border-right: transparent;
+        margin-top: 110px;
+        margin-left: 43%;
+        
+        display: flex;
+        justify-content: center;
+        position: static;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        margin: 0;
+    }
+    
+    #nav-header {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        text-shadow: 0px 1px #59799e;
     }
     nav ul li {
-        margin: 10px;
+        margin: 10px 30px;
+        width: 100%;
+        border-bottom: 3px solid #59799e;
     }
+
+
+
+
+
     .image {
         margin-left: 0px;
         
@@ -165,7 +194,8 @@ div {
     }
     div {
         display: block;
-        margin-left: 20%;
+        margin-left: 0px;
+        margin-top: 20px;
     }
     .content {
         margin-left: 10px;
@@ -178,14 +208,16 @@ div {
         font-size: 15px;
     }
     .blog h1 {
-        font-size: 15px;
+        font-size: 12px;
     }
     .blog p {
         font-size: 10px;
     }
     .blog {
-        margin-left: 20%;
+        margin-left: 5%;
         margin-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 }
 
