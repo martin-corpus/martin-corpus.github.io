@@ -3,7 +3,7 @@
 
  Kia Ora! Welcome to **_Martin_**'s [DevAcademy](https://devacademy.co.nz/?gclid=Cj0KCQjw27mhBhC9ARIsAIFsETFIM6MFVhEWNHE4phYaLm9LgSWBypcddty_tVSasadIbnbMHGabW9oaAiFtEALw_wcB) Adventure  
 &nbsp;    
-This blog will showcase my progress in creating my very first website by utilizing what I have learned in `HTML`, `CSS`, `GitHub`, `Command Line` and `VS Coder`.   
+This blog will showcase my progress in creating my very first website by utilizing what I have learned in `HTML`, `CSS`, `Javascript`, `DOM`, `GitHub`, `Command Line` and `VS Coder`.   
 &nbsp;  
 ## [Website](https://martin-corpus.github.io/index.html) Content:
    + Index Page
@@ -11,5 +11,7 @@ This blog will showcase my progress in creating my very first website by utilizi
    + Core Blogs:  
       + Identity Values
       + Learning Plan
+      + Emotional Intelligence
    + Tech Blogs:  
       + html/css - Margin, Border and Padding
+      + Javascript Fundamentals and DOM
