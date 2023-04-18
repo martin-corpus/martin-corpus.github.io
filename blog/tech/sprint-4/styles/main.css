@@ -234,6 +234,13 @@ a:hover {
          margin-right: 8%;
          font-size: 17px;
     }
+    .blog section p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 8%;
+        font-size: 17px;
+    }
    
 }
 
@@ -282,5 +289,12 @@ a:hover {
         margin-left: 20%;
         margin-right: 20px;
         margin-top: 80px;
+    }
+    .blog section p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 8%;
+        font-size: 17px;
     }
 }
