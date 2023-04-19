@@ -128,16 +128,72 @@ a:hover {
   }
   
 #a7::before,
-#b7::before  {
+#b7::before,
+#c7::before,
+#d7::before,
+#e7::before,
+#f7::before,
+#g7::before,
+#h7::before  {
     content: "\265F";
   }
   
-#g8::before {
+#g8::before,
+#b8::before {
     content: "\265C";
   }
 
+#c8::before,
+#f8::before {
+    content: "\265D";
+}
 
+#a8::before,
+#h8::before {
+    content: "\265E";
+}
 
+#d8::before {
+    content: "\265B";
+}
+
+#e8::before {
+    content: "\265A";
+}
+
+#a2::before,
+#b2::before,
+#c2::before,
+#d2::before,
+#e2::before,
+#f2::before,
+#g2::before,
+#h2::before  {
+    content: "\2659";
+  }
+  
+#g1::before,
+#b1::before {
+    content: "\2656";
+  }
+
+#c1::before,
+#f1::before {
+    content: "\2657";
+}
+
+#a1::before,
+#h1::before {
+    content: "\2658";
+}
+
+#d1::before {
+    content: "\2655";
+}
+
+#e1::before {
+    content: "\2654";
+}
 
 /* Media Query */
 
