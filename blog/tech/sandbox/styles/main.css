@@ -198,15 +198,18 @@ a:hover {
 /* Media Query */
 
 @media all and (min-width: 320px) and (max-width: 767px) {
+   
+    
     #logo {
         height: 90px;
+        padding-right: 150px;
     }
 
 
     #nav-bar {
         border-right: transparent;
         margin-top: 110px;
-        margin-left: 43%;
+        margin-left: 230px;
         
         display: flex;
         justify-content: center;
@@ -233,6 +236,29 @@ a:hover {
         width: 100%;
         border-bottom: 3px solid #59799e;
     }
+
+    .content {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+    .board {
+        width: 500px;
+        height: 500px;
+        margin-left: 10px;
+
+    }
+    .square {
+        width: 58.5px;
+        height: 58.5px;
+        border: 2px solid black;
+    }
+    .prison {
+        width: 500px;
+        height: 58.5px;
+        margin-left: 10px;
+      }
 }
 
 @media all and (min-width: 768px) and (max-width: 1199px) {
@@ -248,8 +274,27 @@ a:hover {
         width: 200px;
         height: 200px;
     }
-    div {
-        display: block;
-        margin-left: 20%;
+    
+    .content {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 25%;
     }
+
+    .board {
+        width: 500px;
+        height: 500px;
+        margin-left: 10px;
+
+    }
+    .square {
+        width: 58.5px;
+        height: 58.5px;
+        border: 2px solid black;
+    }
+    .prison {
+        width: 500px;
+        height: 58.5px;
+        margin-left: 10px;
+      }
 }
