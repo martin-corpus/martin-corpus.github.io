@@ -150,6 +150,9 @@ a:hover {
     margin-bottom: 1em;
 }
 
+#list p {
+    font-size: 20px;
+}
 
 
 /* Media Query */
@@ -236,6 +239,9 @@ a:hover {
     #list ol li {
         font-size: 14px;
     }
+    #list p {
+        font-size: 14px;
+    }
 
 }
 
@@ -278,6 +284,9 @@ a:hover {
         margin-top: 80px;
     }
     #list ol li {
+        font-size: 18px;
+    }
+    #list p {
         font-size: 18px;
     }
 }
