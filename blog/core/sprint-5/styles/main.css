@@ -111,7 +111,7 @@ a:hover {
 .content {
     color: rgb(187, 183, 183);
     align-self: center;
-    margin-left: 260px;
+    margin-left: 130px;
 }
 
 .content h1 {
@@ -140,22 +140,8 @@ a:hover {
 
 .blog section h1 {
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 25px;
 }
-
-.blog section h2 {
-    margin-bottom: 30px;
-}
-.link {
-    color: rgb(214, 97, 19);
-    font-weight: bold;
-}
-.link:hover {
-    background-color: #59799e;
-    color: white;
-}
-
-
 
 
 /* Media Query */
@@ -218,7 +204,6 @@ a:hover {
         font-size: 25px;
     }
 
-
     
     .blog {
         margin-left: 5%;
@@ -234,13 +219,9 @@ a:hover {
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .blog section h2 {
-        font-size: 16px;
-    }
     .blog section p {
         font-size: 14px;
     }
-
 }
 
 @media all and (min-width: 768px) and (max-width: 1199px) {
@@ -281,5 +262,4 @@ a:hover {
         margin-right: 20px;
         margin-top: 80px;
     }
-
 }
