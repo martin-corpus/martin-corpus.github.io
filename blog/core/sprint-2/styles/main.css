@@ -237,13 +237,12 @@ a:hover {
         font-size: 15px;
         margin-bottom: 20px;
     }
+    .blog h2 {
+        font-size: 17px;
+    }
     .blog section p {
         font-size: 12px;
     }
-    #list ul li {
-        font-size: 14px;
-    }
-
 }
 
 @media all and (min-width: 768px) and (max-width: 1199px) {
