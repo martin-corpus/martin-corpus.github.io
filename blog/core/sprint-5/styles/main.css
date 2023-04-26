@@ -135,7 +135,7 @@ a:hover {
 
 .blog section p {
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .blog section h1 {
@@ -216,11 +216,12 @@ a:hover {
         margin-bottom: 40px;
     }
     .blog section h1 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
     .blog section p {
         font-size: 14px;
+        margin-bottom: 30px;
     }
 }
 
