@@ -141,6 +141,13 @@ a:hover {
     margin-bottom: 40px;
 }
 
+.blog h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 #list h1 {
     margin-bottom: 20px;
 }
