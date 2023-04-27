@@ -27,15 +27,11 @@ const board = [
   
     for (let i = 0; i < 8; i++) {
       for (let j = 0; j < 8; j++) {
-        const square = document.createElement('div')
-        square.classList.add('square')
+        
         square.id = `${String.fromCharCode(97 + j)}${8 - i}`
         boardPieces.appendChild(square)
   
-        const piece = document.createElement('img')
-        piece.classList.add('piece')
-        piece.dataset.type = board[i][j]
-        square.appendChild(piece)
+       
       }
     }
   }
